@@ -34,6 +34,7 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+ 
 }
 
 .logo {
@@ -51,12 +52,13 @@ nav a {
 
 nav a:hover {
   color: #7a5938;
+ 
 }
 
 /* Hero Section */
 .hero {
   background: url('https://rasoibellevue.com/wp-content/uploads/2020/10/banner-about.jpg') center center/cover no-repeat;
-  height: 300px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,13 +70,14 @@ nav a:hover {
 .hero h1 {
   font-size: 3em;
   tab-size: 0ch;
-  size-adjust: 20px;
+  
+  padding: 10px 0;
 }
 
 /* About Section */
 .about {
     background-color: #d3c4c4;
-  padding: 60px 0;
+  padding: 10px 0;
   background-color: #413a3a;
   text-align: center;
 }
@@ -83,13 +86,13 @@ nav a:hover {
   font-size: 1.5em;
   margin-bottom: 100px;
   color: #dcc8c8;
+ 
 }
-img{
-    align-items: center;
-}
+
 
 .about p {
   font-size: 1.1em;
+ 
   max-width: 800px;
   margin: 20px auto;
   line-height: 1.8;
